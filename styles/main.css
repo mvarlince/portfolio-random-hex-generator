@@ -1,0 +1,39 @@
+/* normalize */
+*, *::before, *::after {margin: 0; padding: 0; box-sizing: inherit;}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+ 
+body {
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#displayBox, button{ border: 10px #f4f5f6; }
+
+#displayBox{
+    background-color: #f4f5f6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header > h1 {
+    filter: invert();
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    filter: drop-shadow(0 0 1.1rem #000000);
+}
+
+button{
+    font-size: 2;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1px solid #333333;
+    padding: 10px;
+    margin: 0 auto;
+}
+
